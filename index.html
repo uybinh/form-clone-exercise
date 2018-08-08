@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Mint sign up</title>
+</head>
+<body>
+    <header class="topbar">
+      <div>
+        <p>Already have an Intuit account?</p>
+        <a href="#">I forgot my User ID or Password</a>
+      </div>
+      <form action="#">
+        <a href="#">
+          <button class="btn btn-sm">
+              <i class="fas fa-lock"></i>&nbsp; Sign up
+            </button>
+          </a>
+      </form>
+    </header>
+
+    <div class="signup-container">
+      <header>
+        <span>
+          One Account.
+          <br>
+          Everything Intuit.
+        </span>
+        <div>
+          Create an account for all of Intuit's products including Mint. Learn more
+        </div>
+      </header>
+
+      <form action="#">
+        <fieldset>
+          <label class="form-control label" for="email">Email address</label>
+          <input class="form-control text-field" type="email" name="email" id="email">
+        </fieldset>
+        <fieldset>
+          <label class="form-control label" for="phone">Phone (recommend)</label>
+          <input class="form-control text-field" type="tel" name="phone" id="phone">
+        </fieldset>
+
+        <fieldset>
+          <label class="form-control label" for="password">Password</label>
+          <div class="has-icon-right">
+            <input class="form-control text-field" type="password" name="password" id="password">
+            <i class="fas fa-lock-open"></i>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <button class="btn btn-lg"><i class="fas fa-lock"></i>&nbsp; Create account</button>
+        </fieldset>
+      </form>
+
+      <small class="terms-agreement">
+        By clicking Create Account, you agree to our <a href="#">License Agreement</a>
+        and have read and acknowledge our <a href="#">Privacy Statement</a>.
+      </small>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  background: #ECEEF1;
+  text-align: center;
+  color: #4C4C4C;
+}
+
+a {
+  text-decoration: none;
+  color: #0077C5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.topbar {
+  display: flex;
+  padding: 10px 30px 0 0;
+  font-size: 0.75rem;
+}
+.topbar div {
+  margin-left: auto;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.btn {
+  background: #0077C5;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+}
+
+.btn-sm {
+  font-size: 0.8rem;
+  height: 34px;
+  padding: 6px 20px;
+}
+
+.btn-lg {
+  height: 40px;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0 20px;
+}
+
+.signup-container {
+  width: 380px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 4px;
+}
+
+header span {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+.signup-container header {
+  margin-bottom: 20px;
+}
+
+.signup-container header div {
+  padding-top: 20px;
+  font-size: 0.9rem;
+}
+
+form {
+  text-align: left;
+}
+
+fieldset {
+  border: none;
+  padding: 5px 0;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+}
+
+.label {
+  padding-bottom: 5px;
+}
+
+.text-field {
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 4px;
+  height: 2.2rem;
+  padding: 0 10px;
+  font-size: 1rem;
+}
+
+.terms-agreement {
+  color: #bbb;
+  font-style: oblique;
+  font-size: 0.7rem;
+}
+
+.has-icon-right {
+  position: relative;
+}
+
+.has-icon-right :last-child {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: gray;
+}
+
+.has-icon-right input {
+  padding-right: 35px;
+}
